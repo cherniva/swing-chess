@@ -1,0 +1,70 @@
+~~~Usage~~~
+Select the mode in the main menu:
+
+1) LocalGame - game of two players on one device
+---------------Initial options:-----------------
+a) start the game:
+  -starts the game with all selected options
+
+b) manual arrangement:
+  -the ability to manually layout pieces on the board
+  -to delete a piece, 
+   take another piece and put it on its place
+  -to reset close the game window 
+   and start a new game from the main menu
+
+c) load the game:
+  -the ability to load a saved game
+  -to load, select the appropriate file 
+   in the file selection window 
+
+d) set timer: 
+  -the ability to set the timer
+   after the timer expires, the player loses
+  -if the timer value is left at 00:00 
+   there will be a game with unlimited time
+  -in the window you can increase 
+   or decrease the time value for the set
+  -after setting the required time, 
+   close the settings window
+
+
+2) Game vs bot - single player game against computer
+---------------Initial options:-----------------
+a) start the game: same like in local game
+b) manual arrangement: same like in local game
+c) load the game: same like in local game
+d) set timer: same like in local game
+
+e) change color:
+  -the ability to choose the color of pieces
+   bot automatically selects the opposite
+
+
+3) Online Game(host) - create a server and wait 
+                       for the player to connect
+4) Online Game(client) - connect to the host
+---------------Initial options:-----------------
+a) start the game: same like in local game
+b) manual arrangement: same like in local game
+c) load the game: same like in local game
+d) set timer: same like in local game
+
+e) change color:
+  -the ability to choose the color of pieces
+   other player automatically selects the opposite
+P.S.-before connecting, the host can arrange 
+     the figures and set a timer, after connection,
+     the client will download the necessary information.
+     This means that the host player can load saved games.
+
+    -when the connection is established, 
+     each of the players can adjust the time and location 
+     of the figures. Changes will sync
+
+    -when you press the start of the game, the timer starts 
+     and the game starts for both players
+     
+    -when disconnecting one of the players, 
+     it is necessary to restart both the client and the server
+

@@ -1,0 +1,15 @@
+~~~Used technologies~~~
+Java Swing
+JDK11
+JUnit Jupiter API
+
+
+~~~Used libraries~~~
+java.awt
+java.awt.event
+java.io
+java.net
+java.util
+java.util.logging
+javax.swing
+
